@@ -6,14 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-     <h1>Registro</h1>
+     <h1>Reserva de viaje</h1>
     <form>
+        <p> Registro personal:</p>
         <label for="nombre">Nombre:</label>
         <input type="text" type="required" id="nombre" name="nombre"></input><br>
         <label for="edad">Edad:</label>
         <input type="number" id="edad" name="edad"></input><br>
+        <label for="numero">Numero de teléfono:</label>
+        <input type="text" id="numero" name="numero"></input><br>
         <label for="placeholder">Correo electrónico:</label>
         <input type="email" id="correo" name="correo"></input><br>
+        <label for="clave">Contraseña:</label>
+        <input type="password" id="clave" name="clave"></input><br>
 
         <p> ¿Viene con acompañante?</p>
         <label for="si">Si</label>
@@ -22,10 +27,21 @@
         <input type="radio" id="si" name="residencia"></input><br>
         <label for="acompañante">Numero de acompañantes:</label>
         <input type="number" step="1" min="1" max="5" id="acompañante" name="acompañante"></input><br><br>
+
+        <p> Lugar de origen:</p>
+        <label for="origen">Lugar de origen</label>
+        <input type="text" value="San Salvador" readonly>
     
-        
-        <label for="clave">Contraseña:</label>
-        <input type="password" id="clave" name="clave"></input><br>
+        <p> Lugar de destino:</p>
+        <label for="pais">País:</label>
+            <select id="pais" name="pais">
+            <option value="">Selecciona una opción</option>
+            <option value="sv">Lauterbrunnen</option>
+            <option value="mx">Florencia</option>
+            <option value="es">Barcelona</option>
+            <option value="ar"> Venecia</option>
+            </select>
+        <br>
 
         <input type="submit" value="Registrarse"></input>
         <input type="reset" value="Borrar"></input>
