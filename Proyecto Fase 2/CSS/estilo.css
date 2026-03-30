@@ -1,0 +1,129 @@
+#Titulo{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #fff;
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
+  }
+  #Titulo:hover{
+    background-color: rgba(255, 0, 0, 0.545);
+  }
+
+  #link{
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
+  }
+
+#s1{
+      font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #fff;
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
+}
+#s1:hover{
+    background-color: rgba(255, 0, 0, 0.545);
+  }
+#s2{
+      font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;  
+  color: #fff; 
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
+}
+#s2:hover{
+    background-color: rgba(255, 0, 0, 0.545);
+  }
+#s3{
+      font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #fff;
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
+}
+#s3:hover{
+    background-color: rgba(255, 0, 0, 0.545);
+  }
+#s4{
+      font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #fff;
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
+}
+#s4:hover{
+    background-color: rgba(255, 0, 0, 0.545);
+  }
+#s5{
+      font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #fff;
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
+}
+#s5:hover{
+    background-color: rgba(255, 0, 0, 0.545);
+  }
+.Texto{ 
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
+}
+
+.Titulo2{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #fff;
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
+}
+.Titulo2:hover{
+    background-color: rgba(255, 0, 0, 0.545);
+  }
+
+body{
+    background-image: url(../img2/4ffefd0593515dcd7e592981028f96a1.jpg);
+    background-size: 1690px;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.6); /*negro con transparencia*/
+    background-blend-mode: darken;
+}
+th{
+  background-color: rgba(255, 0, 0, 0.545);
+}
+table{
+  border-collapse: collapse;
+}
+table, th, td{
+border: 2px solid rgba(255, 0, 0, 0.545);
+}
+#Galería{
+  padding: 100px;
+  margin: 100PX;
+}
