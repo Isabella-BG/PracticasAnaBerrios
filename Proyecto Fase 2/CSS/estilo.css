@@ -13,39 +13,61 @@
   }
 
   #link{
-  max-width: 900px;
+    max-width: 900px;
   margin: auto;
   padding: 10px;
   }
+  #link ul{
+  display: flex;
+  list-style: none;
+  gap: 110px;
+  }
+  #link a{
+  color: #fc0000;
+  }
 
 #s1{
-      font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
   color: #fff;
-  max-width: 900px;
+  max-width: 1200px;
   margin: auto;
-  padding: 10px;
+  padding: 20px;
 }
-#s1:hover{
-    background-color: rgba(255, 0, 0, 0.545);
-  }
-#s2{
-      font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;  
+#historia:hover{
+  background-color: rgba(255, 0, 0, 0.545);
+  font-family: "Playfair Display", serif;
+  margin-bottom: 20px; 
   color: #fff; 
-  max-width: 900px;
-  margin: auto;
-  padding: 10px;
 }
+#contenedor{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+#s1 .imagen{
+  flex: 40%;
+  display: flex;
+  justify-content: center;
+}
+#s1 .imagen img{
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.Texto2{ 
+  flex: 60%;
+  color: white;
+  column-count: 1;
+}
+  
 #s2:hover{
     background-color: rgba(255, 0, 0, 0.545);
   }
 #s3{
-      font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
@@ -124,6 +146,8 @@ table, th, td{
 border: 2px solid rgba(255, 0, 0, 0.545);
 }
 #Galería{
-  padding: 100px;
-  margin: 100PX;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
